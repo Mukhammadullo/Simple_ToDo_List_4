@@ -118,6 +118,32 @@
      background: rgb(218, 215, 215);
  }
 
+ /* EditEmail */
+ .EditEmail {
+     width: 350px;
+     height: 30px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+ }
+
+ /* EditRole */
+ .EditRole {
+     width: 350px;
+     height: 30px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+ }
+
+ /* editBtn */
+ .editBtn {
+     width: 100px;
+     height: 40px;
+     border-radius: 5px;
+     border: none;
+     box-shadow: 0px 0px 3px black;
+     font-size: 16px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
 
  .sta {
      width: 120px;
