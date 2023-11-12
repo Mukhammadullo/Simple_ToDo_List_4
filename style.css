@@ -107,6 +107,18 @@
      box-shadow: 0px 0px 5px black;
  }
 
+
+ /* dialogEdit */
+ .dialogEdit {
+     width: 360px;
+     height: 280px;
+     border: none;
+     box-shadow: 0px 0px 7px black;
+     border-radius: 8px;
+     background: rgb(218, 215, 215);
+ }
+
+
  .sta {
      width: 120px;
      height: 35px;
