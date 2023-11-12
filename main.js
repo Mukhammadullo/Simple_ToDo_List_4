@@ -26,20 +26,20 @@ inviteBtn.onclick = () => {
 let data = [
     {
         id: 1,
-        email: "user1@daa.com",
-        role: "query",
+        email: "Muhammadullo",
+        role: "Developer",
         isComplete: false,
     },
     {
         id: 2,
-        email: "user2@daa.com",
-        role: "query",
+        email: "Abdurahmon",
+        role: "Doctor",
         isComplete: false,
     },
     {
         id: 3,
-        email: "user3@daa.com",
-        role: "query",
+        email: "Surush",
+        role: "Student",
         isComplete: false,
     }
 ]
