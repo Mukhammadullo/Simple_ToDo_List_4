@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    th {
+        text-align: start;
+    }
+
+    tr {
+        color: black;
+
+        height: 60px;
+        border-bottom: 2px solid grey;
+    }
+
+
+    .main {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .inviteBtn {
+        width: 120px;
+        height: 40px;
+        background-color: skyblue;
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .search {
+        width: 250px;
+        height: 35px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .sta {
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius:5px ;
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <input type="text" class="search" placeholder="search">
+
+        <br>
+        <br>
+
+        <button class="inviteBtn">+ invite Users</button>
+    </div>
+
+    <!-- dialogAdd -->
+    <dialog class="dialogAdd">
+        <input type="text" class="AddEmail">
+        <input type="text" class="AddRole">
+        <button class="btnAdd">Add</button>
+    </dialog>
+
+    <!-- dailodEdoit -->
+
+    <dialog class="dialogEdit">
+        <input type="text" class="EditEmail">
+        <input type="text" class="EditRole">
+        <button class="editBtn">Edit</button>
+    </dialog>
+
+
+    <!-- dialogInfo -->
+    <dialog class="dialogInfo">
+        <h1 class="infoEmail"></h1>
+        <h1 class="infoRole"></h1>
+        <button class="cancel">Cancel</button>
+    </dialog>
+
+    <table>
+        <thead>
+            <th>User</th>
+            <th>Role</th>
+            <th>Status</th>
+        </thead>
+
+        <tbody class="tbody">
+
+        </tbody>
+
+    </table>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
