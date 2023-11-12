@@ -8,6 +8,11 @@
      text-align: start;
  }
 
+ thead {
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
  tr {
      color: black;
 
@@ -92,8 +97,9 @@
      font-size: 16px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
- .btnAdd:hover{
-    box-shadow: 0px 0px 5px black;
+
+ .btnAdd:hover {
+     box-shadow: 0px 0px 5px black;
  }
 
  .sta {
