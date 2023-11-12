@@ -90,6 +90,7 @@ function get(data) {
         // edit
         let btnEdit = document.createElement("button")
         btnEdit.innerHTML = "Edit"
+       btnEdit.classList.add("btnEdit")
         btnEdit.onclick = () => {
             editUser(elem.id)
         }
@@ -97,6 +98,7 @@ function get(data) {
         // del
         let btnDel = document.createElement("button")
         btnDel.innerHTML = "Delete"
+        btnDel.classList.add("btnDel")
         btnDel.onclick = () => {
             delUser(elem.id)
         }
